@@ -1,19 +1,20 @@
 <template>
     <div class="d">
-        标题
+        content
     </div>
 </template>
 
 <script>
 export default {
-    name:"Exchange_Head"
+    name:"Exchange_Content"
 }
 </script>
 
 <style lang="less" scoped>
 .d{
-    background-color: blueviolet;
-    height: 100%;
+    height:100%;
+    background-color: chocolate;
 }
 </style>
+
 

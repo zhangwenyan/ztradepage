@@ -1,34 +1,35 @@
 <template>
-  <div id="app">
-    <exchange />
+  <div class="d">
+    <table>
+      <tr>
+        <td>
+          <exchange />
+        </td>
+      </tr>
+    </table>
+
   </div>
 </template>
 
 <script>
-import Dep from "@/components/Dep";
 import Exchange from "@/components/Exchange";
 
 export default {
   name: "App",
   components: {
-    Dep,
     Exchange
   }
 };
 </script>
-
-<style>
-#app {
-  background-color: cadetblue;
-}
-body {
-  margin: 0px;
-}
-#app > table {
-  width: 100%;
+<style lang="less" scoped>
+.d {
+  background-color: green;
   height: 100%;
 }
 table {
-  border: 1px solid red;
+  border: 1px solid orange;
+  width: 100%;
+  height: 100%;
 }
 </style>
+
