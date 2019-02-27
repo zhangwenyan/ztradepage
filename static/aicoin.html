@@ -1,0 +1,30 @@
+   
+    <style>
+        *{
+            padding:0px;
+            margin:0px;
+        }
+        html,body{
+            height:100%;
+            border:0px;
+        }
+        </style>
+
+        <script src="lib/util.js"></script>
+<!-- AICoin Widget Begin -->
+<script src="https://widget.aicoin.net.cn/chart/js/aicoin.js" type="text/javascript"></script>
+<script type="text/javascript">
+    var trader = GetQueryString("trader");
+    var symbol = (GetQueryString("symbol") || "btc_usdt").replace("-", "_");
+    new AICoin.widget({
+            "symbol": trader + symbol.split("_")[0] + symbol.split("_")[1],
+            "default_theme": "dark",
+            "disable_theme_change": true,
+            "hide_logo": true,
+            "container": "kline_container",
+            "hide_market_name": true,
+            "lang": "zh"
+        })
+</script>
+
+

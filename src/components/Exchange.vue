@@ -7,7 +7,7 @@
         </td>
       </tr>
       <tr>
-        <td style="background-color:red;">
+        <td>
           <table border="1">
             <tr style="height:20px;">
               <td>

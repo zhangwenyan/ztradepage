@@ -23,7 +23,6 @@ export default {
 </script>
 <style lang="less" scoped>
 .d {
-  background-color: green;
   height: 100%;
 }
 table {
